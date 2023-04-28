@@ -1,0 +1,7 @@
+#We can do the reverse as well. Convert the following multi-line operations to a single expression. Check that both approaches give the same result.
+u <- c(8, 9, 10)
+v <- c(1, 2, 3)
+w1 <- u^3
+w2 <- u - v
+w <- w1 / w2
+print(w)
